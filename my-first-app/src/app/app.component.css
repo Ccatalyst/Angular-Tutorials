@@ -1,3 +1,6 @@
-h1 {
-  color: blue;
+.header {
+  background-color: beige;
+}
+ul {
+  list-style: none;
 }
