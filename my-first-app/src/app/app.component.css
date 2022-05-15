@@ -1,6 +1,6 @@
 .header {
   background-color: beige;
 }
-ul {
-  list-style: none;
+.body {
+  max-width: 10px;
 }

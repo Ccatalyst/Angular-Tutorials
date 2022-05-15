@@ -8,12 +8,10 @@ import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { AppRoutingModule } from './app-routing-module';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { HomeComponent } from './home/home.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ContactComponent } from './contact/contact.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,10 +21,9 @@ import { ResumeComponent } from './resume/resume.component';
     NavigationComponent,
     AboutMeComponent,
     PortfolioComponent,
-    HomeComponent,
-    PagenotfoundComponent,
     ContactComponent,
     ResumeComponent,
+    PagenotfoundComponent,
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [],
